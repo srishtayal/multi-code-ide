@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 
 const Editor = () => {
   const [code, setCode] = useState(""); // State to hold the code
-  const { id } = useParams(); // Extract project ID from URL params
+  const { id } = useParams(); 
   const [output, setOutput] = useState("");
   const [error, setError] = useState(false);
 

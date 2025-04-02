@@ -9,6 +9,7 @@ const Navbar = () => {
         <img src={logo} className='w-[170px] object-cover' alt="" />
 
         <div className="links flex items-center gap-[15px]">
+          <Link to="/" className='text-[white] text-[18px]'>Home</Link>
          
           <button onClick={()=>{
             localStorage.removeItem("token");
