@@ -32,17 +32,14 @@ git clone https://github.com/srishtayal/multi-code-ide
 cd multi-code-ide
 ```
 
-### 2️⃣ Install Dependencies  
+### 2️⃣ Run the Frontend
 ```sh
+cd frontend
 npm install
-```
-
-### 3️⃣ Start the Development Server  
-```sh
 npm run dev
 ```
 
-### 4️⃣ Run the Backend  
+### 3️⃣ Run the Backend  
 ```sh
 cd backend
 npm install
