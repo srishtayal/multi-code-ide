@@ -1,1 +1,1 @@
-export const api_base_url = "http://localhost:3000";
+export const api_base_url = "https://multi-code-ide-production.up.railway.app/";
